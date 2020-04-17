@@ -69,3 +69,7 @@ git clone https://github.com/arcticicestudio/nord-gnome-terminal.git
 # Installing neofetch.
 sudo apt-get update
 sudo apt-get install neofetch
+
+# Installing Keybase.
+curl --remote-name https://prerelease.keybase.io/keybase_amd64.deb
+sudo apt install ./keybase_amd64.deb
