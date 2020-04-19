@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Installing yadm.
 sudo apt-get install yadm
 
@@ -73,3 +72,6 @@ sudo apt-get install neofetch
 # Installing Keybase.
 curl --remote-name https://prerelease.keybase.io/keybase_amd64.deb
 sudo apt install ./keybase_amd64.deb
+
+# Installing trash-cli
+sudo apt install trash-cli
